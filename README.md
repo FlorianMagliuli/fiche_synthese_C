@@ -41,8 +41,24 @@ scanf("");// permet à l'utilisateur de rentrer une ou plusieurs valeurs
 
 ```c
 scanf("%d", &nb); // rentrer un entier
+```
 
 ## Structures de Contrôles
+
+### Boucles 
+ 
+* For :
+
+```c
+int i;
+for(i=0, i<10, i++)
+{
+ printf("la variable i vaut : %d", i);
+}
+ 
+ 
+ 
+### tests
 
 ## Variables Composées
 
