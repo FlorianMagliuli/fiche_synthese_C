@@ -6,8 +6,8 @@
 
 ```c
 int nb; //déclaration d'un entier
-float nb; //déclaration d'un floattant
-char nb; //déclaration d'un caractère
+float réel; //déclaration d'un floattant
+char caract; //déclaration d'un caractère
 ```
 
 ### Initialisation:
@@ -17,10 +17,10 @@ int nb=0; //exemple d'initialisation d'une variable
 ```
 
 ## Entrées / Sorties
+>Attention : Un printf ou un scanf doit posseder autant de % que de ,
 
-### Affichage à l'écran : 
+### Affichage à l'écran : printf
 
-* printf
 ```c
 printf(""); // permet d'afficher quelque chose à l'écran
 ```
@@ -30,7 +30,17 @@ printf(""); // permet d'afficher quelque chose à l'écran
 printf("La valeur de l'entier est : %d", nb)// afficher la valeur d'un entier
 ```
 
-### Lecture au clavier
+### Lecture au clavier : scanf
+
+
+```c
+scanf("");// permet à l'utilisateur de rentrer une ou plusieurs valeurs
+```
+
+* exemples
+
+```c
+scanf("%d", &nb); // rentrer un entier
 
 ## Structures de Contrôles
 
