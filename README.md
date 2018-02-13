@@ -22,10 +22,6 @@ int nb=0; //exemple d'initialisation d'une variable
 
 ### Affichage à l'écran : printf
 
-```c
-printf(""); // permet d'afficher quelque chose à l'écran
-```
-
 * exemple
 ```c
 printf("La valeur de l'entier est : %d", nb)// afficher la valeur d'un entier
@@ -33,11 +29,6 @@ printf("La valeur de l'entier est : %d", nb)// afficher la valeur d'un entier
 
 
 ### Lecture au clavier : scanf
-
-
-```c
-scanf("");// permet à l'utilisateur de rentrer une ou plusieurs valeurs
-```
 
 * exemple
 
@@ -53,6 +44,7 @@ scanf("%d", &nb); // rentrer un entier
 
 ```c
 int i;
+
 for(i=0, i<10, i++)                      //Boucle qui va passer par toutes les valeurs de i pour i allant de 0 à 9
 {
  printf("la variable i vaut : %d", i);   //Instruction de la boucle qui affiche la valeur de i
@@ -62,6 +54,15 @@ for(i=0, i<10, i++)                      //Boucle qui va passer par toutes les v
 * While :
 
 ```c
+int i;
+
+while(i<10)
+{
+printf("la variable i vaut : %d", i);
+i++;
+}
+```
+
 
 
  
