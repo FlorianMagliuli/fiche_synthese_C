@@ -96,8 +96,11 @@ case 3: printf("réduction de 30%");
         break;
        
 default: printf("aucune réduction");
+         break;
+}
 
 ```
+
 * If : même exemple que pour le switch
 
 ```c
@@ -121,9 +124,21 @@ else
 {
 printf("aucune réduction")
 }
-
-
+```
 
 ## Variables Composées
+
+### Tableaux
+```c
+int tableau[5]; //
+
+tableau[0]=1;
+tableau[1]=2;
+tableau[2]=3;
+tableau[3]=4;
+tableau[4]=5;
+
+
+### Structure
 
 ## Fonctions
