@@ -54,12 +54,12 @@ for(i=0, i<10, i++)                      //Boucle qui va passer par toutes les v
 * While :
 
 ```c
-int i;
+int i = 0;
 
-while(i<10)
+while(i<10)                               // Boucle qui va passer toutes les valeurs de i jusqu'à 9
 {
-printf("la variable i vaut : %d", i);
-i++;
+printf("la variable i vaut : %d", i);     //Instruction de la boucle qui affiche la valeur de i
+i++;                                      
 }
 ```
 
