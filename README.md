@@ -62,12 +62,19 @@ printf("la variable i vaut : %d", i);     //Instruction de la boucle qui affiche
 i++;                                      
 }
 ```
+Il est aussi possible de faire un do while par exemple si on demande à l'utilisateur d'entrer un nombre positif : 
 
+```c
+int entier;
 
+do
+{
+printf("entrer un nombre positif");
+scanf("%d", &entier);
+}while(entier < 0)
 
- 
- 
- 
+```
+
 ### tests
 
 ## Variables Composées
