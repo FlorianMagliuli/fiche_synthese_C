@@ -101,44 +101,35 @@ default: printf("aucune réduction");
 
 ```
 
-* If : même exemple que pour le switch
+* If : exemple
 
 ```c
-int nb_enfants;
-printf("entrer nombre enfants");
-scanf("%d", &nb_enfants);
+int nb;
+if(nb>0)
+{
+printf("%d est positif", nb);
+}
+else if(nb<0)
+{
+printf("%d est negatif", nb);
+}
 
-if(nb_enfants==1)
-{
-printf("réduction de 10%");
-}
-else if(nb_enfants==2)
-{
-printf("réduction de 20%");
-}
-else if(nb_enfants==3)
-{
-printf("réduction de 30%");
-}
-else
-{
-printf("aucune réduction")
-}
 ```
 
 ## Variables Composées
 
 ### Tableaux
 ```c
-int tableau[5]; //
+int tableau[5]; //On intègre un tableau de 5 lignes allant de 0 à 4
 
 tableau[0]=1;
 tableau[1]=2;
 tableau[2]=3;
 tableau[3]=4;
 tableau[4]=5;
-
+```
 
 ### Structure
+
 
 ## Fonctions
