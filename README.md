@@ -5,7 +5,7 @@
 * Déclaration:
 
 ```c
-int nb;
+int nb; gfggdgdf
 float nb;
 char nb;
 ```
