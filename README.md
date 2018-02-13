@@ -6,6 +6,8 @@
 
 ```c
 int nb;
+float nb;
+char nb;
 ```
 
 ## Entrées / Sorties
