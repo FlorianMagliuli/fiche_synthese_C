@@ -28,8 +28,9 @@ printf(""); // permet d'afficher quelque chose à l'écran
 * exemple
 ```c
 printf("La valeur de l'entier est : %d", nb)// afficher la valeur d'un entier
+```
 
-### 
+### Lecture au clavier
 
 ## Structures de Contrôles
 
