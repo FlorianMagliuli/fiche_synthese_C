@@ -77,6 +77,53 @@ scanf("%d", &entier);
 
 ### tests
 
+* Switch : exemple d'une réduction de 10% par enfant sur le prix total (jusqu'à 3 enfants)
+```c
+int nb_enfants;
+printf("entrer nombre enfants");
+scanf("%d", &nb_enfants);
+
+switch(nb_enfants)
+{
+
+case 1: printf("réduction de 10%");
+        break;
+        
+case 2: printf("réduction de 20%");
+        break;
+        
+case 3: printf("réduction de 30%");
+        break;
+       
+default: printf("aucune réduction");
+
+```
+* If : même exemple que pour le switch
+
+```c
+int nb_enfants;
+printf("entrer nombre enfants");
+scanf("%d", &nb_enfants);
+
+if(nb_enfants==1)
+{
+printf("réduction de 10%");
+}
+else if(nb_enfants==2)
+{
+printf("réduction de 20%");
+}
+else if(nb_enfants==3)
+{
+printf("réduction de 30%");
+}
+else
+{
+printf("aucune réduction")
+}
+
+
+
 ## Variables Composées
 
 ## Fonctions
