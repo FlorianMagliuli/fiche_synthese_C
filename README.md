@@ -6,7 +6,7 @@
 
 ```c
 int nb; //déclaration d'un entier
-float réel; //déclaration d'un floattant
+float reel; //déclaration d'un floattant
 char caract; //déclaration d'un caractère
 ```
 
