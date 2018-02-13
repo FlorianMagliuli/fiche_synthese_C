@@ -37,7 +37,7 @@ printf("La valeur de l'entier est : %d", nb)// afficher la valeur d'un entier
 scanf("");// permet à l'utilisateur de rentrer une ou plusieurs valeurs
 ```
 
-* exemples
+* exemple
 
 ```c
 scanf("%d", &nb); // rentrer un entier
