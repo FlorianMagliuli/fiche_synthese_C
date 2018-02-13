@@ -19,6 +19,7 @@ int nb=0; //exemple d'initialisation d'une variable
 ## Entrées / Sorties
 >Attention : Un printf ou un scanf doit posseder autant de % que de ,
 
+
 ### Affichage à l'écran : printf
 
 ```c
@@ -29,6 +30,7 @@ printf(""); // permet d'afficher quelque chose à l'écran
 ```c
 printf("La valeur de l'entier est : %d", nb)// afficher la valeur d'un entier
 ```
+
 
 ### Lecture au clavier : scanf
 
@@ -51,10 +53,17 @@ scanf("%d", &nb); // rentrer un entier
 
 ```c
 int i;
-for(i=0, i<10, i++)
+for(i=0, i<10, i++)                      //Boucle qui va passer par toutes les valeurs de i pour i allant de 0 à 9
 {
- printf("la variable i vaut : %d", i);
+ printf("la variable i vaut : %d", i);   //Instruction de la boucle qui affiche la valeur de i
 }
+```
+
+* While :
+
+```c
+
+
  
  
  
